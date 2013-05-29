@@ -6,6 +6,7 @@
         background-image: url('../img/logo_pizza_pimsTest.png');
         background-repeat:no-repeat;
         background-origin:border-box;
+        color: #FFFFFF;
 
      }
       .jumbotron {
@@ -29,7 +30,8 @@
       }
       
       .transparent {
-            background-color: rgba(194,194,194,0.4);
+            background-color: rgba(13,13,13,0.9);
+            /*background-color: rgba(194,194,194,0.4);*/
             /* background: rgba(34, 26, 23, 0.7); */
             padding: 15px;
             -webkit-border-radius: 10px;
@@ -37,4 +39,5 @@
       
       .table {
           margin-bottom: 0px;
+          color: #A9302A;
       }
