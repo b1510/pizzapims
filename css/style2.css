@@ -1,6 +1,6 @@
        
         .header {
-            background-color: #A9302A;
+            background-color: #408140;
             -webkit-box-shadow: 0px 1px 0px 0px #000000;
             box-shadow: 0px 1px 0px 0px #000000;
             height: 60px;
@@ -11,9 +11,10 @@
         }
         
         .header h1 a {
-            color: #000000;
+            color: #A9302A;
             text-decoration: none;
             text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+            text-shadow: #fff 1px 0px 0px, #fff 1px 1px 0px, #fff 1px -1px 0px, #fff -1px 1px 0px, #fff -1px 0px 0px, #fff -1px -1px 0px, #fff 0px 1px 0px, #fff 0px -1px 0px;
             font-size:40px;
             font-family:arial, helvetica, sans-serif;
         }
@@ -32,9 +33,9 @@
         .jumbotron {
             margin-top: 60px;
             padding-top: 30px;
-            padding-bottom: 30px;
-            height: 280px;
-            line-height: 280px;
+            padding-bottom: 20px;
+            /*height: 280px;
+            line-height: 280px;*/
             
             background: #f1da36; /* Old browsers */
             background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
@@ -76,7 +77,7 @@
         }
         
         .main {
-            min-height: 450px;
+            min-height: 280px;
         }
         
         .nav {
@@ -90,30 +91,61 @@
         }
         
         .tab-pane {
-            padding: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+            padding-top: 10px;
             background-color: #f9f9f9;
            
            -webkit-border-radius: 10px;
             border-radius: 10px;
         }
         
+        .table-conges {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .table-conges .table td {
+            text-align: center;
+        }
+        
         footer {
-            color: #000;
-            padding-top: 20px;
-            height: 50px;
-            line-height: 50px;
+            color: #7F8289;
+            padding-top: 10px;
+            height: 200px;
+            line-height: 20px;
             background-color: #408140;
             
             -webkit-box-shadow: inset 0px 2px 0px 0px #ccc;
             box-shadow: inset 0px 2px 0px 0px #ccc;
-            
-            background: #408140; /* Old browsers */
-            background: -moz-linear-gradient(top,  #74bc74 0%, #408140 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#74bc74), color-stop(100%,#408140)); /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(top,  #74bc74 0%,#408140 100%); /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(top,  #74bc74 0%,#408140 100%); /* Opera 11.10+ */
-            background: -ms-linear-gradient(top,  #74bc74 0%,#408140 100%); /* IE10+ */
-            background: linear-gradient(to bottom,  #74bc74 0%,#408140 100%); /* W3C */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74bc74', endColorstr='#408140',GradientType=0 ); /* IE6-9 */
 
+           background-color: #26292E; /* Old browsers */
         }
+        
+        footer a {
+            color: #7F8289;
+            text-decoration: none;
+        }
+        
+        footer  a:hover .facebook{
+            color: #3B5998;
+        }
+        
+        footer .google-plus:hover{
+            color: #B83324;
+        }
+        
+        footer table {
+            color:#000000;
+        }
+        footer table caption{
+            color:#7F8289;
+        }        
+        
+        footer a:hover {
+            text-decoration: none;
+        }
+        .foot-line {
+            line-height: 150px;
+        }        
